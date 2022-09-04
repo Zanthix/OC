@@ -909,8 +909,8 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    body h2,h3, p{
-        font-size: 25px;
+    body  p{
+        font-size: 22px;
     }
     .page-container {
         overflow-x: hidden;
@@ -1059,16 +1059,7 @@ h4 {
     .center{
         padding: 30px;
     }
-    .col-sm-4{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .col-sm-6{
-        margin-bottom: 10%;
-        display: flex;
-        flex-direction: column;
-    }
+    
 }
 
 @media (max-width: 400px) {
@@ -1081,5 +1072,15 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .col-sm-4{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .col-sm-6{
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
     }
 }
